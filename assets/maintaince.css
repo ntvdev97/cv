@@ -1,0 +1,75 @@
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.site-logo {
+    width: 110px;
+    height: 32px;
+}
+
+.icon-home {
+    display: flex !important;
+    align-items: center;
+}
+
+.icon-home span {
+    margin-left: 15px;
+}
+
+.icon-menu {
+    width: 14px;
+    height: 14px;
+}
+
+.icon-social svg {
+    width: 28px;
+    height: 28px;
+    fill: #b9babb;
+    opacity: 0.7;
+}
+
+.icon-social:hover {
+    color: #187857cc;
+}
+
+.back-style li {
+    margin-left: -30px;
+}
+
+.back-style li svg {
+    margin-right: 10px;
+}
+
+.icon-infor {
+    width: 18px;
+    height: 18px;
+}
+
+.cv {
+    max-width: 100px;
+}
+
+.btn.btn-download {
+    background: #16a085;
+    color: #FFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    display: flex;
+    align-items: center;
+}
+
+.btn.btn-download svg {
+    margin-right: 10px;
+}
+
+.box-hidden {
+    color: #fff;
+}

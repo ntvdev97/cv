@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thế Vinh - Java Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Raleway:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="assets/dist.css">
+    <link rel="stylesheet" href="assets/maintaince.css">
+</head>
+<body class="homepage ver-one" data-spy="scroll" data-target=".main-navigation">
+    <header id="site-header">
+        <nav id="site-navigation" class="main-navigation side-static" role="navigation">
+            <div class="navigation-header">
+                <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="Signature" class="site-logo"/></a>
+                <button class="menu-switch">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>                      
+                </button>
+            </div>
+            <!-- /.navigation-header -->
+            <ul class="nav navigation">
+                <li class="item"><a href="#site-header" class="icon-home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-menu">
+                    <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                    <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                  </svg>
+                  <span>Home</span></a></li>
+                <li class="item"><a href="#about" class="icon-home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-menu">
+                    <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span>About</span></a></li>
+                <li class="item"><a href="#skills" class="icon-home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-menu">
+                    <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z" />
+                  </svg>
+                  <span>Skills</span></a></li>
+                <li class="item"><a href="#experiences" class="icon-home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-menu">
+                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z" clip-rule="evenodd" />
+                  </svg>
+                  <span>Experiences</span></a></li>
+                <li class="item"><a href="#timeline" class="icon-home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-menu">
+                    <path d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z" />
+                    <path d="M13.06 15.473a48.45 48.45 0 017.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 01-.46.71 47.878 47.878 0 00-8.105 4.342.75.75 0 01-.832 0 47.877 47.877 0 00-8.104-4.342.75.75 0 01-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 016 13.18v1.27a1.5 1.5 0 00-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 00.551-1.608 1.5 1.5 0 00.14-2.67v-.645a48.549 48.549 0 013.44 1.668 2.25 2.25 0 002.12 0z" />
+                    <path d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z" />
+                  </svg>
+                  <span>Timeline</span></a></li>
+            </ul>
+            <!-- /.navigation -->
+        </nav>
+        <!-- /#site-navigation -->
+        <div id="banner" class="transparent-section" data-image="assets/img/banner.jpg" data-color="24, 120, 87" data-transparency="0.80">
+            <div class="transparent-content parallax-style">
+                <div class="header-content">
+                    <div class="container">
+                        <div class="site-title">
+                            <h1 class="site-name">I’m Nguyen The Vinh</h1>
+                        </div>
+                        <!-- /.site-title -->
+                        <h3 class="site-slogan">A Java Developer</h3>
+                        <!-- /.site-slogan-->
+                        <div class="social-link">
+                            <ul class="social-profiles">
+                                <li class="item"><a href="https://github.com/VinhLB1997" class="icon-social"><svg xmlns="http://www.w3.org/2000/svg" fill="#747272" viewBox="0 0 256 256"><path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"></path></svg><span>Github</span></a></li>
+                                <li class="item"><a href="https://www.facebook.com/nuocmat.vohinh.180" class="icon-social"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#747272" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path></svg><span>Facebook</span></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.social-link -->
+                    </div>
+                </div>
+                <!-- /.header-content -->
+            </div>
+            <!-- /.transparent-content -->
+        </div>
+        <!-- /.transparent-section -->
+    </header>
+    <!-- /#site-header -->
+    <section id="about" class="default-section" data-scroll-reveal="enter from the bottom over .5s">
+        <div class="section-heading">
+            <h2 class="section-title">About me</h2>
+        </div>
+        <!-- /.section-heading -->
+        <div class="about-container">
+            <div class="container">
+                <div class="col-md-3" data-scroll-reveal="enter from the left after .5s">
+                    <div class="profile-photo section-box">
+                        <img src="assets/img/im.jpg" alt="The Vinh" class="profile-image img-responsive">
+                    </div>
+                    <!-- /.profile-photo -->
+                </div>
+                <div class="col-md-6" data-scroll-reveal="enter from the right after .5s">
+                    <div class="profile-details section-box">
+                        <h2 class="title">Summary</h2>
+                        <div class="about-content">
+                            <p>
+                                I'm Nguyen The Vinh, a java developer with <b>with 1.5 years of experience programming software on a website environment with java language</b> , with knowledge of <i>Object Oriented Programming, Design Pattern</i>.</p>
+                            <p>Learning new languages and technologies is what I am passionate about (I self-taught Django with 3 weeks). I am considered a team-player because I like to help other and tend to work well within groups. I can also do some mentoring tasks and do code reviewing for other team members.</p>
+                            <p> I like helping other and work well with group. I can also do some mentoring tasks and code reviewing for other members (I also held a presentation about <a href="https://www.slideshare.net/conanak99/ioc-and-mapper-in-c" target="_blank">IoC and DI</a> for my team).</p>
+                           </div>
+                        <!-- /.about-content -->
+                        <div class="cv">
+                        <a href="assets/cv/Nguyễn Thế Vinh Standard.pdf" class="btn btn-download"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path fill-rule="evenodd" d="M10.5 3.75a6 6 0 00-5.98 6.496A5.25 5.25 0 006.75 20.25H18a4.5 4.5 0 002.206-8.423 3.75 3.75 0 00-4.133-4.303A6.001 6.001 0 0010.5 3.75zm2.25 6a.75.75 0 00-1.5 0v4.94l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V9.75z" clip-rule="evenodd" />
+                          </svg>
+                          <span>My CV</span></a></div>
+                    </div>
+                    <!-- /.profile-details -->
+                </div>
+                <div class="col-md-3" data-scroll-reveal="enter from the right after .5s">
+                    <div class="profile-details section-box">
+                        <h2 class="title">Contact Info</h2>
+                        <address>
+                            <ul class="address-line back-style">
+                                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-infor">
+                                    <path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                  </svg>
+                                  Tu Son, Bac Ninh</li>
+                                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"  class="icon-infor">
+                                    <path d="M10.5 18.75a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z" />
+                                    <path fill-rule="evenodd" d="M8.625.75A3.375 3.375 0 005.25 4.125v15.75a3.375 3.375 0 003.375 3.375h6.75a3.375 3.375 0 003.375-3.375V4.125A3.375 3.375 0 0015.375.75h-6.75zM7.5 4.125C7.5 3.504 8.004 3 8.625 3H9.75v.375c0 .621.504 1.125 1.125 1.125h2.25c.621 0 1.125-.504 1.125-1.125V3h1.125c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 017.5 19.875V4.125z" clip-rule="evenodd" />
+                                  </svg>
+                                  +84 971897597</li>
+                                <li><a href="mailto:vinhlb1702@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#8c8c8c" class="icon-infor">
+                                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                                    <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                                  </svg>
+                                  vinhlb1702@gmail.com</a></li>
+                                <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#8c8c8c" class="icon-infor">
+                                    <path d="M15.75 8.25a.75.75 0 01.75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 11-.992-1.124A2.243 2.243 0 0015 9a.75.75 0 01.75-.75z" />
+                                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM4.575 15.6a8.25 8.25 0 009.348 4.425 1.966 1.966 0 00-1.84-1.275.983.983 0 01-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 012.328-.377L16.5 15h.628a2.25 2.25 0 011.983 1.186 8.25 8.25 0 00-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.575 15.6z" clip-rule="evenodd" />
+                                  </svg>
+                                  cv.vinhlb</a></li>
+                            </ul>
+                        </address>
+                        <!-- /.contact-info -->
+                    </div>
+                    <!-- /.profile-details -->
+                </div>
+            </div>
+        </div>
+        <!-- /.about-container -->
+    </section>
+    <!-- /#about -->
+    <section id="skills" class="default-section" data-scroll-reveal="enter from the bottom over .5s">
+        <div class="section-heading">
+            <h2 class="section-title">SKILLS</h2>
+        </div>
+        <!-- /.section-heading -->
+        <div class="container">
+            <div class="skills-container">
+                <div class="col-md-4" data-scroll-reveal="enter from the left after .5s">
+                    <div class="section-box">
+                        <h2 class="box-title">Programming languages</h2>
+                        <ul>
+                            <li>Java</li>
+                            <li>HTML, CSS, JavaScript</li> 
+                        </ul>
+                        <h2 class="box-title">Frameworks & platforms</h2>
+                        <ul>
+                            <li>Spring Boot, Spring MVC, Spring WebFlux, Spring Security</li>
+                            <li>Spring Data, Spring Data JPA, Spring Data R2DBC, Hibernate</li>
+                            <li>VueJS</li>
+                            <li>jQuery, Bootstrap</li>
+                            <li>RestfulAPI / JSON, XML</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-scroll-reveal="enter from the right after .5s">
+                    <div class="section-box">
+                        <h2 class="box-title">Database</h2>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>MariaDB</li>
+                        </ul>
+                        <h2 class="box-title">Version Control</h2>
+                        <ul>
+                          <li>Git (Git Shell & Github)</li>
+                          <li>SVN (TortoiseSVN & VisualSVN)</li>
+                        </ul>
+                        <h2 class="box-title">IDE</h2>
+                        <ul>
+                            <li>Atom</li>
+                            <li>Visual Studio Code</li>
+                            <li>Eclipse & Intellij</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-scroll-reveal="enter from the right after .5s">
+                    <div class="section-box">
+                        <h2 class="box-title">Knowledge</h2>
+                        <ul>
+                            <li>Understanding about OOP, Design Pattern, SOLID principles, Dependency Injection, ...</li>
+                            <li>Understanding about the Docker</li>
+                            <li>Understanding software design, database design, RestfulAPI, ...</li>
+                        </ul>
+                        <div class="box-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. m officiis nostrum,
+                             atque, vel ex repellatCumque asperiores alias voluptatu
+                              nam deleniti dolorum nobis aperiam quibusdam!</div>
+                    </div>
+                </div>
+                <!-- /.skills-container -->
+            </div>
+    </section>
+    <!-- /#skills -->
+    <section id="experiences" class="default-section" data-scroll-reveal="enter from the bottom over .5s">
+        <div class="section-heading">
+            <h2 class="section-title">Experiences</h2>
+        </div>
+        <!-- /.section-heading -->
+        <div class="container">
+            <div class="experiences-container">
+                <div class="experience-items">
+                  <div class="experience-item" data-scroll-reveal="enter from the bottom over .5s">
+                      <div class="name-designation" data-scroll-reveal="enter from the left after .5s">
+                          <h3 class="designation">Back End Developer</h3>
+                          <p class="name-of-org">Saishunkan System Viet Nam</p>
+                      </div>
+                      <!-- /.name-designation -->
+                      <div class="stay-time light-violet">
+                          <p>
+                              10/2022
+                              <br /> -<br/>
+                              Present
+                          </p>
+                      </div>
+                      <!-- /.stay-time -->
+                      <div class="comments" data-scroll-reveal="enter from the right after .5s">
+                        <ul>
+                          <li><span class="bold">Project:</span> NTT-TX</li>
+                          <li><span class="bold">Project Description</span>: Maintenance of accounting system of NTT company, is a
+                            plugin is written based on Idempiere ERP System open source.</li>
+                          <li><span class="bold">Team Size</span>: 1</li>
+                          <li><span class="bold">Responsiblities</span>: Add, edit, delete columns in SQL statement
+                            (PostgreSQL) in the system to match the design
+                            new board. Make sure inserting data via csv works correctly.</li>
+                          <li><span class="bold">Technologies</span>: Source plugin build base on Idempiere EPR System using ZK framework.</li>
+                        </ul>
+                      </div>
+                      <!-- /.comments -->
+                  </div>
+                  <!-- /.experience-item -->
+                    <div class="experience-item" data-scroll-reveal="enter from the bottom over .5s">
+                        <div class="name-designation" data-scroll-reveal="enter from the left after .5s">
+                            <h3 class="designation">Back End Developer</h3>
+                            <p class="name-of-org">Saishunkan System Viet Nam</p>
+                        </div>
+                        <!-- /.name-designation -->
+                        <div class="stay-time light-yellow">
+                            <p>
+                                03/2022
+                                <br /> -<br/>
+                                10/2022
+                            </p>
+                        </div>
+                        <!-- /.stay-time -->
+                        <div class="comments" data-scroll-reveal="enter from the right after .5s">
+                          <ul>
+                            <li><span class="bold">Project</span>: BackYard</li>
+                            <li><span class="bold">Project Description</span>: Hotel operations management software includes
+                                Customer management, branch management, luggage storage shelf management, baggage management. In addition, there are basic functions of the management system such as system user management,...</li>
+                            <li><span class="bold">Team Size</span>: 6</li>
+                            <li><span class="bold">Responsiblities</span>: 
+                                <p>Design and coding the necessary APIs for management
+                                customers, hotel equipment management, management
+                                The service of sending and returning items of the hotel, ... provided data for
+                                Front-end processing.</p>
+                            <p>Design common responses and system logs.
+                            </p>
+                        <p>Set up authentication/authorization mechanism using Json
+                            Web Token and Spring Security for web system.</p></li>
+                            <li><span class="bold">Technologies</span>: 
+                               <p>Back-end: <i>Spring Boot, Spring WebFlux, Spring Security, Spring Data R2DBC, MariaDB.</i></p>
+                               <p>Front-end: <i>VueJS, Quasar, Tailwind.</i></p>
+                            </li>
+                          </ul>
+                        </div>
+                        <!-- /.comments -->
+                    </div>
+                    <div class="experience-item" data-scroll-reveal="enter from the bottom over .5s">
+                        <div class="name-designation" data-scroll-reveal="enter from the left after .5s">
+                            <h3 class="designation">Pet Projects</h3>
+                            <p class="name-of-org"></p>
+                        </div>
+                        <!-- /.name-designation -->
+                        <div class="stay-time light-violet">
+                            <p>
+                                <br/> All the time
+                            </p>
+                        </div>
+                        <!-- /.stay-time -->
+                        <div class="comments" data-scroll-reveal="enter from the right after .5s">
+                            <p>In my free time, I work on some pet projects: <a href="https://github.com/conanak99/">https://github.com/conanak99/</a></p>
+                            <ul>
+                                <li><a href="http://jav-idol.toidicodedao.com/" class="bold">JAV Idol Recognition</a>: An app that can recognize famous Japanese pop idols <b>(AngularJS. Back-end: C# + Azure Function + Microsoft Recognitive API)</b>
+                                    - <a href="https://github.com/conanak99/idol-face/tree/gh-pages" target="_blank">Github</a>
+                                </li>
+                                <li><a href="https://github.com/conanak99/facebook-chat-bot" class="bold">Facebook Chat Bot</a>: A chatbot for my Facebook Fanpage <b>(NodeJS + Facebook Messenger Platform)</b>
+                                    - <a href="https://github.com/conanak99/facebook-chat-bot" target="_blank">Github</a>
+                                </li>
+                                <li><a href="http://language.codeaholicguy.com/" class="bold">Which Language</a>: An app that help people to choose which programming language to learn <b>(React + Webpack)</b>
+                                    - <a href="https://github.com/codeaholicguy/what-language" target="_blank">Github</a>
+                                </li>
+                                <li><a href="http://jav.toidicodedao.com/" class="bold">JAV Idol API</a>: A production API for querying Japanese idol and movies <b>(NodeJS + Redis Cache)</b>
+                                    - <a href="https://github.com/conanak99/jav-rest-api" target="_blank">Github</a>
+                                </li>
+                                <li><a href="http://hoangphpetprojects.github.io/LadyboyChallenge/" class="bold">Ladyboy Challenge</a>: A funny game where user must guess the girl and ladyboy <b>(AngularJS)</b>
+                                    - <a href="https://github.com/HoangPHPetProjects/LadyboyChallenge" target="_blank">Github</a>
+                                </li>
+                                <li><a href="http://conanak99.github.io/VuongShopOrder/" class="bold">Vuonag Shop Order</a>: Simple product ordering system for a handmade passport cover shop <b>(AngularJS)</b>
+                                    - <a href="https://github.com/conanak99/VuongShopOrder" target="_blank">Github</a>
+                                </li>
+                                <li><a href="http://hoangphpetprojects.github.io/SalaryConverter/" class="bold">Salary Converter</a>: Convert salary from GROSS to NET and vice versa <b>(AngularJS)</b>
+                                    - <a href="https://github.com/HoangPHPetProjects/SalaryConverter" target="_blank">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.comments -->
+                    </div>
+                    <!-- /.experience-item -->
+                </div>
+                <!-- /.experience-items -->
+            </div>
+            <!-- /.experiences-container -->
+        </div>
+    </section>
+    <!-- /#experiences -->
+    <section id="timeline" class="default-section" data-scroll-reveal="enter from the bottom over .5s">
+        <div class="section-heading">
+            <h2 class="section-title">Timeline</h2>
+        </div>
+        <!-- /.section-heading -->
+        <div class="container">
+            <div class="education-container">
+                <div class="education-items">
+                    <div class="col-md-12" data-scroll-reveal="enter from the top after .5s">
+                      <div class="education-item">
+                          <div class="edu-time light-green">
+                              <p>10/2015
+                                  <br /> -
+                                  <br /> 06/2019</p>
+                          </div>
+                          <!-- /.edu-time -->
+                          <div class="edu-title">
+                              <p class="edu-session">University of Transport and Communications (UTC)</p>
+                              <p class="edu-inst"> No 3 Cau Giay Street, Lang Thuong Sub-district, Dong Da District, Ha Noi City</p>
+                          </div>
+                          <!-- /.edu-title -->
+                          <!-- <div class="edu-comments">
+                              <ul>
+                                  <li>Degree grade: Rather</li>
+                              </ul>
+                          </div> -->
+                          <!-- /.edu-comments -->
+                      </div>
+                      <!-- /.education-item -->
+                        <div class="education-item">
+                            <div class="edu-time light-blue">
+                                <p> 04/2019
+                                    <br /> -
+                                    <br /> 02/2020</p>
+                            </div>
+                            <!-- /.edu-time -->
+                            <div class="edu-title">
+                                <p class="edu-session">Saishunkan System Viet Nam Company (SSV)</p>
+                                <p class="edu-inst">Hoa Binh Tower, No 106 Hoang Quoc Viet, Nghia Tan Sub-district, Cau Giay District, Ha Noi City</p>
+                            </div>
+                            <!-- /.edu-title -->
+                        </div>
+                        <!-- /.education-item -->
+                        <!-- /.education-item -->
+                        <div class="education-item">
+                            <div class="edu-time light-green">
+                                <p> 02/2020
+                                    <br /> -
+                                    <br /> 02/2022</p>
+                            </div>
+                            <!-- /.edu-time -->
+                            <div class="edu-title">
+                                <p class="edu-session">Vietnam People’s Army</p>
+                                <p class="edu-inst">Luc Ngan, Bac Giang City</p>
+                            </div>
+                            <!-- /.edu-title -->
+                        </div>
+                        <!-- /.education-item -->
+                         <!-- /.education-item -->
+                         <div class="education-item">
+                            <div class="edu-time light-blue">
+                                <p> 02/2022
+                                    <br /> -
+                                    <br /> Present</p>
+                            </div>
+                            <!-- /.edu-time -->
+                            <div class="edu-title">
+                                <p class="edu-session">Saishunkan System Viet Nam Company (SSV)</p>
+                                <p class="edu-inst">Hoa Binh Tower, No 106 Hoang Quoc Viet, Nghia Tan Sub-district, Cau Giay District, Ha Noi City</p>
+                            </div>
+                            <!-- /.edu-title -->
+                        </div>
+                        <!-- /.education-item -->
+                    </div>
+                </div>
+                <!-- /.education-items -->
+            </div>
+            <!-- /.education-container -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <script defer="defer" async="async" src="assets/dist.js"></script>
+</body>
+
+</html>
